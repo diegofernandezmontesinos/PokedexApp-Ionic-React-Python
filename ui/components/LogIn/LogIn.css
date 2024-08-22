@@ -1,0 +1,91 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("../../images/pokemonbackground.svg") !important;
+  background-size: cover !important;
+}
+
+.login-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-banner {
+  background-color: #4caf50;
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 1rem;
+}
+
+.login-banner img {
+  width: 300px;
+  margin-bottom: 0.5rem;
+  height: 100px;
+}
+
+.login-banner p {
+  color: #fff;
+  margin: 0;
+}
+
+.login-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-container {
+  color: black;
+  position: relative;
+}
+
+.input-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+input {
+  padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+p {
+  color: #ff4b5c;
+  margin-top: 1rem;
+}

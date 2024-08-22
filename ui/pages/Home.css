@@ -1,0 +1,14 @@
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+  }
+.center-content-navbar {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+}
+  

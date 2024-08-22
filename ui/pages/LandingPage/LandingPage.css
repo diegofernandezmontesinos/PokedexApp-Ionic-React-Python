@@ -1,0 +1,147 @@
+.landing-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+.header {
+  background-color: #ffcb05;
+  padding: 10px;
+  border-bottom: 5px solid #3b4cca;
+}
+
+.header h1 {
+  color: #3b4cca;
+  font-size: 2.5em;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 50px;
+  color: #3b4cca;
+}
+
+.text-container p {
+  width: 50vw;
+  font-size: 25px;
+  color: #3b4cca;
+}
+.text-container img{
+  width: 15vw;
+  border: none;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pokemon-image {
+  width: 40vw; 
+  height: auto; 
+  border-radius: 15px; 
+  border: 5px solid #ffcb05;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container p {
+  width: 40%;
+  font-size: 20px;
+  color: #3b4cca;
+}
+
+.button-container button {
+  background-color: #3b4cca;
+  color: white;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.button-container button a {
+  color: white;
+  text-decoration: none;
+}
+
+.pokeball-icon {
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    font-size: 30px;
+  }
+
+  .text-container p {
+    width: 80vw;
+    font-size: 20px;
+  }
+
+  .pokemon-image {
+    width: 70vw;
+  }
+
+  .button-container p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .button-container button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8em;
+  }
+
+  .text-container {
+    font-size: 25px;
+  }
+
+  .text-container p {
+    width: 90vw;
+    font-size: 18px;
+  }
+
+  .pokemon-image {
+    width: 80vw;
+  }
+
+  .button-container p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .button-container button {
+    padding: 6px 12px;
+  }
+}

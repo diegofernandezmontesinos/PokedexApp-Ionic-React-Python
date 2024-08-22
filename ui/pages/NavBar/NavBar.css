@@ -1,0 +1,60 @@
+.navbar {
+  background-color: white;
+  padding: 0px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-item a {
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: medium;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.logIn {
+  display: flex;
+  align-items: center;
+}
+
+.logIn span {
+  margin-right: 10px;
+  color: black;
+}
+
+.navbar-item button {
+  background-color: #fff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.pokedex-image {
+  width: 24px;
+}
+.pokedex a{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 10px;
+}
