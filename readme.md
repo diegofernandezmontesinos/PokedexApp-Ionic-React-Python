@@ -21,7 +21,8 @@ This is the info that user will need to start project:
      https://github.com/diegofernandezmontesinos/pokedexDFM
 
 5. **Production Deploy**:
-    This is the url for the production deploy     
+    This is the url for the production deploy: 
+    https://dfm-pokedex-p63k40dd8-diego-fernandezs-projects-4f566536.vercel.app/   
 
 6. **Port info**:
     Make shure that your localhost is using port 8100, so avoid issues with the apiService component.
