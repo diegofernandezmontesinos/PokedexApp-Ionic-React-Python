@@ -1,5 +1,9 @@
 This is the info that user will need to start project:
 
+0) **To start**:
+
+    npm install
+
 1. **Install IONIC**:
     in ther terminal, write: 
         ionic start <nameOfTheApp> 
@@ -16,7 +20,7 @@ This is the info that user will need to start project:
     PandaCss
     Fortawesome (npm install @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome)
 
-4. **Clon repo from github**:
+4. **Clone repo from github**:
     The repo is ubicated in github, this is the route:
      https://github.com/diegofernandezmontesinos/pokedexDFM
 
