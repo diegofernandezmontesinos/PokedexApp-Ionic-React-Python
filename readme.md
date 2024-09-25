@@ -46,3 +46,6 @@ In this case I just apply test in the login component.
 
 The project use python in the backend and React library with typescript in the frontend.  
 
+
+[pokedexApp.webm](https://github.com/user-attachments/assets/acfc1676-0c56-4b1d-a79a-b38f9b30b2a5)
+
